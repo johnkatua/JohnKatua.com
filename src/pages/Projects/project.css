@@ -3,7 +3,7 @@
   flex-direction: column;
   /* height: 80rem; */
   background-color: aqua;
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .project-page__header {
@@ -28,8 +28,10 @@
 }
 
 .project-page__details {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  /* display: flex;
+  flex-direction: column; */
   flex: 1;
   background-color: burlywood;
 }
@@ -37,7 +39,7 @@
 .project-details__upper {
   display: flex;
   flex-direction: row;
-  height: 50%;
+  height: 100%;
   background-color: cadetblue;
 }
 
@@ -214,7 +216,7 @@
   justify-content: center;
   align-items: center;
   width: 50%;
-  /* background-color: rgb(198, 210, 30); */
+  background-color: rgb(198, 210, 30);
 }
 
 .project3-card {
@@ -250,7 +252,7 @@
   justify-content: center;
   align-items: center;
   min-width: 100%;
-  max-height: 270px;
+  max-height: 100%;
   object-fit: fill;
   border-radius: 2% 5%;
   box-shadow: -6px 7px 5px 0px rgba(0,0,0,0.28);
@@ -320,7 +322,7 @@
   justify-content: center;
   align-items: center;
   min-width: 100%;
-  max-height: 270px;
+  max-height: 100%;
   object-fit: fill;
   border-radius: 2% 5%;
   box-shadow: -6px 7px 5px 0px rgba(0,0,0,0.28);
@@ -366,6 +368,9 @@
 }
 
 @media screen and (max-width: 500px) {
+  .project-page {
+    padding-bottom: 1rem;
+  }
   .project-page__header {
     font-size: 1.5rem;
     letter-spacing: .5px;
@@ -380,6 +385,7 @@
   .project-details__upper {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   .project-details__project1 {
@@ -429,6 +435,7 @@
   }
 
   .project-details__lower {
+    display: flex;
     flex-direction: column;
   }
 
@@ -446,14 +453,14 @@
     height: 400px;
   }
 
-  .project3-image {
+  /* .project3-image {
     width: 90%;
     height: 100%;
-  }
+  } */
 
-  .project3-img {
+  /* .project3-img {
     max-height: 350px;
-  }
+  } */
 
   .project3-card__title {
     font-size: 1.1rem;
@@ -474,14 +481,14 @@
     height: 400px;
   }
 
-  .project4-image {
+  /* .project4-image {
     width: 90%;
     height: 100%;
-  }
+  } */
 
-  .project4-img {
+  /* .project4-img {
     max-height: 350px;
-  }
+  } */
 
   .project4-card__title {
     font-size: 1.1rem;

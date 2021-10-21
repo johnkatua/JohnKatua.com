@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-bottom: 2rem;
   /* height: 20rem; */
   background-color: #db9b6e;
 }
@@ -27,7 +28,7 @@
 .skills-page__paragraph {
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin: 1rem 0;
   width: 50%;
   height: 80%;
   font-size: 1.1rem;
@@ -171,6 +172,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .skills-page {
+    padding-bottom: 1rem;
+  }
+  
   .skills-page__header {
     font-size: 1.5rem;
     letter-spacing: .5px;

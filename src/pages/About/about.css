@@ -32,18 +32,6 @@
   /* background-color: darkgray; */
 }
 
-@media screen and (max-width: 500px) {
-  .about-page__introduction {
-    margin-top: 0;
-  }
-  .about-page__icons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding-right: 0;
-  }
-}
 
 
 .icon-linkedin {
@@ -102,13 +90,6 @@
   /* background-color: darkkhaki; */
 }
 
-@media screen and (max-width: 500px) {
-  .about-page__paragraph {
-    padding: 0;
-    font-size: 2rem;
-    width: 100%;
-  }
-}
 
 .about-page__image {
   display: flex;
@@ -150,36 +131,13 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
-  .about-page__image {
-    height: 25rem;
-  }
-
-  .about-image {
-    width: 300px;
-  }
-
-  .about-icon__left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* padding-right: .2rem; */
-    margin-right: .2rem;
-    /* background-color: aqua; */
-  }
-
-  .about-icon__right {
-    margin-left: .2rem;
-  }
-}
-
 .about-page__details {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
   width: 100%;
+  margin-bottom: 2rem;
   /* height: 20rem; */
   /* background-color: aqua; */
 }
@@ -198,6 +156,7 @@
   height: 35%;
   font-size: 1.1rem;
   letter-spacing: .8px;
+  margin-bottom: 1rem;
   /* background-color: blue; */
 }
 
@@ -214,7 +173,8 @@
 .details__para2 {
   display: flex;
   flex-direction: column;
-  height: 80%;
+  align-items: center;
+  /* height: 80%; */
   width: 40%;
   /* background-color: bisque; */
   font-size: 1.1rem;
@@ -222,9 +182,28 @@
 }
 
 @media screen and (max-width: 500px) {
+  .about-page__introduction {
+    margin-top: 0;
+  }
+
+  .about-page__icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 0;
+  }
+
+  .about-page__paragraph {
+    padding: 0;
+    font-size: 2rem;
+    width: 100%;
+  }
+
   .about-page__details {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
   }
 
   .details__para1 {
@@ -245,6 +224,28 @@
   .details__para2 { 
     width: 100%;
     margin: 1rem 0;
+  }
+
+  .about-page__image {
+    height: 25rem;
+  }
+
+  .about-image {
+    width: 300px;
+  }
+
+  .about-icon__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-right: .2rem; */
+    margin-right: .2rem;
+    /* background-color: aqua; */
+  }
+
+  .about-icon__right {
+    margin-left: .2rem;
   }
 }
 
