@@ -1,3 +1,3 @@
 # JohnKatua.com
 
-Personal portfolio displaying my progress and projects, built with <b>React</b>
+Personal portfolio displaying my progress and projects, built with <b style="color: blue">React</b>
