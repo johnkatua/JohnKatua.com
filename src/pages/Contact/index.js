@@ -3,11 +3,13 @@ import './contact.css';
 import { Mail as MailICon, Linkedin as LinkedinIcon, Twitter as TwitterIcon, Instagram as InstagramIcon, GitHub as GitHubIcon } from 'react-feather';
 import emailjs from 'emailjs-com';
 
+
+
 const ContactPage = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_f8nwibj', 'template_dbamo09', e.target, 'user_8CswvBaem00tPZXHGfHI9')
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
       .then((result) => {
         console.log(result.text)
         alert('Email sent successfully')
