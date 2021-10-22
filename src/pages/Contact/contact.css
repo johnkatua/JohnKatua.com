@@ -17,6 +17,7 @@
   font-size: 2rem;
   letter-spacing: 1px;
   font-weight: bold;
+  padding-bottom: 2rem;
   /* background-color: blue; */
 }
 
@@ -42,6 +43,7 @@
   /* background-color: chocolate; */
   font-size: 1.1rem;
   letter-spacing: 1px;
+  padding-bottom: 1rem;
 }
 
 .contact-media__links {
@@ -209,6 +211,7 @@
   flex-direction: column;
   justify-content: center;
   height: 15%;
+  padding-bottom: 1rem;
   /* background-color: darkgreen; */
 }
 
@@ -235,6 +238,7 @@
   flex-direction: column;
   justify-content: center;
   height: 15%;
+  padding-bottom: 1rem;
   /* background-color: rgb(100, 0, 17); */
 }
 
@@ -261,6 +265,7 @@
   flex-direction: column;
   justify-content: center;
   height: 15%;
+  padding-bottom: 1rem;
   /* background-color: rgb(0, 72, 100); */
 }
 
@@ -287,6 +292,7 @@
   flex-direction: column;
   justify-content: center;
   height: 35%;
+  padding-bottom: 1rem;
   /* background-color: rgb(100, 65, 0); */
 }
 
@@ -313,6 +319,7 @@
   flex-direction: column;
   justify-content: center;
   flex: 1;
+  padding-bottom: 1rem;
   /* background-color: darkgreen; */
 }
 
@@ -346,7 +353,7 @@
   .contact-media__description {
     width: 100%;
     letter-spacing: .5px;
-    margin-bottom: .5rem;
+    padding-bottom: .5rem;
   }
 
   .contact-media__links {
@@ -394,7 +401,7 @@
   }
 
   .contact-form__name {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
   }
 
   .name-label {
@@ -406,7 +413,7 @@
   }
 
   .contact-form__email {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
   }
 
   .email-label {
@@ -418,7 +425,7 @@
   }
 
   .contact-form__subject {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
   }
 
   .subject-label {
@@ -430,7 +437,7 @@
   }
 
   .contact-form__message {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
   }
 
   .message-label {
@@ -441,12 +448,13 @@
     width: 90%;
   }
 
+  .contact-form__button {
+    padding-bottom: .5rem;
+  }
+
   .submit-btn {
     width: 50%;
     padding: .4rem 0;
     margin-bottom: 1rem;
   }
-
-  
-
 }
