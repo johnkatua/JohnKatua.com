@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   /* height: 80rem; */
-  background-color: aqua;
+  /* background-color: aqua; */
   padding-bottom: 2rem;
 }
 
@@ -282,9 +282,12 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-decoration: none;
+  color: black;
+  /* justify-content: center; */
   flex: 1;
   cursor: pointer;
-  /* background-color: darkgoldenrod; */
+  background-color: darkgoldenrod;
   font-weight: 700;
 }
 

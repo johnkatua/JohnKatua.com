@@ -1,0 +1,107 @@
+.ebookshop--container {
+  display: flex;
+  flex-direction: column;
+  background-color: brown;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.ebookshop--container__header {
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+}
+
+.ebookshop--header__title {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  padding: 1rem 0;
+  background-color: blue;
+}
+
+.ebookshop--header__description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: brown;
+}
+
+.header--description__para1 {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  width: 40%;
+  background-color: blueviolet;
+}
+
+.ebookshop--header__details {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  width: 40%;
+  background-color: burlywood;
+}
+
+.header--details__box1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: cadetblue;
+}
+
+.details--box1__title {
+  font-size: 1.1rem;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.details--box1__description {
+  padding-top: .8rem;
+  font-size: 1.1rem;
+}
+
+.header--details__box2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background-color: aquamarine;
+}
+
+.details--box2__title {
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: 1.1rem;
+}
+
+.details--box2__list {
+  list-style-type: none;
+  padding-top: .8rem;
+  font-size: 1.1rem;
+  background-color: green;
+}
+
+.header--details__box3 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: antiquewhite;
+}
+
+.details--box3__title {
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: 1.1rem;
+}
+
+.details--box3__description {
+  padding-top: .8rem;
+  font-size: 1.1rem;
+}
+
+.ebookshop--image__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
