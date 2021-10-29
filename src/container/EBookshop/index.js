@@ -87,6 +87,31 @@ const EBookshop = () => {
               </div>
             </div>
           </div>
+          <div className="ebookshop--process__container">
+            <h2 className="ebookshop--process__title">Problems and Thought Process</h2>
+            <div className="ebookshop--process__description">
+              <p className="process--description__para1">
+                Like most projects, I ran into few bumps along the way, one particularly difficult area was organization
+                of the code. Because of this project's size, I realized how important maintaining an organized structure
+                would be.
+              </p>
+              <p className="process--description__para2">
+                I worked hard to keep components as reusable as possible and utilized props for many slight variations.
+                I also used styled components, because the structure of CSS-in-js is much clearer and prevents overrides
+              </p>
+            </div>
+          </div>
+          <div className="ebookshop--lesson__container">
+            <h2 className="ebookshop--lesson__title">Lesson Learned</h2>
+            <p className="ebookshop--lesson__details">
+              I could spend all day describing the lesson that I learned while working on this project, but the most
+              important ones involved my newfound understanding of React Hooks, Git management, Feature Keys, and API
+              integration. As my first large project using React. I learned a lot of lessons regarding code structure
+              and organisation. When I first began, I would write sloppy code and move on, but now I know how doing so
+              can come back to bite you. I now spend a lot more time refactoring and imporiving every line of code I
+              write, for the best readability and far fewer headaches.
+            </p>
+          </div>
         </div>
       </div>
       <Footer />
