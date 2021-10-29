@@ -1,22 +1,22 @@
 import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import "./ebookshop.css";
+import "../../stylesheet/stylesheet.css";
 
 const EBookshop = () => {
   return (
-    <div className="ebookshop--container">
+    <div className="projects--container">
       <Header />
-      <div className="ebookshop--container__header">
-        <h2 className="ebookshop--header__title">E-Bookshop</h2>
-        <div className="ebookshop--header__description">
+      <div className="projects--container__header">
+        <h2 className="projects--header__title">E-Bookshop</h2>
+        <div className="projects--header__description">
           <p className="header--description__para1">
             E-Bookshop is a React application built for an online store where users can login and such various
             programming books. Users can search and filter books in different categories. Users can also pay for the
             books using braintree.
           </p>
         </div>
-        <div className="ebookshop--header__details">
+        <div className="projects--header__details">
           <div className="header--details__box1">
             <h4 className="details--box1__title">Type</h4>
             <span className="details--box1__description">Personal Project</span>
@@ -37,13 +37,13 @@ const EBookshop = () => {
           </div>
         </div>
       </div>
-      <div className="ebookshop--image__container">
-        <div className="ebookshop--image">
-          <img className="ebookshop--img" src="./Images/image5.png" alt="ebookshop" />
+      <div className="projects--image__container">
+        <div className="projects--image">
+          <img className="projects--img" src="./Images/image5.png" alt="ebookshop" />
         </div>
       </div>
-      <div className="ebookshop--webstack__container">
-        <div className="ebookshop--webstack__purpose">
+      <div className="projects--webstack__container">
+        <div className="projects--webstack__purpose">
           <h2 className="webstack--purpose__title">Project Purpose and Goal</h2>
           <div className="webstack--purpose__paragraphs">
             <div className="purpose__para1">
@@ -60,7 +60,7 @@ const EBookshop = () => {
             </div>
           </div>
         </div>
-        <div className="ebookshop--webstack__explanation">
+        <div className="projects--webstack__explanation">
           <h2 className="webstack--explanation__title">Web stack and Explanation</h2>
           <div className="webstack--explanation__container">
             <div className="webstack--list">
@@ -87,9 +87,9 @@ const EBookshop = () => {
               </div>
             </div>
           </div>
-          <div className="ebookshop--process__container">
-            <h2 className="ebookshop--process__title">Problems and Thought Process</h2>
-            <div className="ebookshop--process__description">
+          <div className="projects--process__container">
+            <h2 className="projects--process__title">Problems and Thought Process</h2>
+            <div className="projects--process__description">
               <p className="process--description__para1">
                 Like most projects, I ran into few bumps along the way, one particularly difficult area was organization
                 of the code. Because of this project's size, I realized how important maintaining an organized structure
@@ -101,9 +101,9 @@ const EBookshop = () => {
               </p>
             </div>
           </div>
-          <div className="ebookshop--lesson__container">
-            <h2 className="ebookshop--lesson__title">Lesson Learned</h2>
-            <p className="ebookshop--lesson__details">
+          <div className="projects--lesson__container">
+            <h2 className="projects--lesson__title">Lesson Learned</h2>
+            <p className="projects--lesson__details">
               I could spend all day describing the lesson that I learned while working on this project, but the most
               important ones involved my newfound understanding of React Hooks, Git management, Feature Keys, and API
               integration. As my first large project using React. I learned a lot of lessons regarding code structure
