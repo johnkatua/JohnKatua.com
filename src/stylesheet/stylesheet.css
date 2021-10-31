@@ -6,7 +6,6 @@
   min-height: 100vh;
 }
 
-
 .projects--container__header {
   display: flex;
   flex-direction: column;
@@ -32,6 +31,7 @@
   font-size: 1.1rem;
   letter-spacing: 1px;
   width: 40%;
+  padding-bottom: 1rem;
   background-color: blueviolet;
 }
 
@@ -51,12 +51,12 @@
 
 .details--box1__title {
   font-size: 1.1rem;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
 .details--box1__description {
-  padding-top: .8rem;
+  padding-top: 0.8rem;
   font-size: 1.1rem;
 }
 
@@ -69,13 +69,13 @@
 
 .details--box2__title {
   text-transform: uppercase;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   font-size: 1.1rem;
 }
 
 .details--box2__list {
   list-style-type: none;
-  padding-top: .8rem;
+  padding-top: 0.8rem;
   font-size: 1.1rem;
   background-color: green;
 }
@@ -89,12 +89,12 @@
 
 .details--box3__title {
   text-transform: uppercase;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   font-size: 1.1rem;
 }
 
 .details--box3__description {
-  padding-top: .8rem;
+  padding-top: 0.8rem;
   font-size: 1.1rem;
 }
 
@@ -122,7 +122,7 @@
 .projects--img {
   min-width: 100%;
   border-radius: 10px;
-  box-shadow: 5px 5px 12px 2px #2e2d2d
+  box-shadow: 5px 5px 12px 2px #2e2d2d;
 }
 
 .projects--webstack__container {
@@ -140,10 +140,10 @@
 }
 
 .webstack--purpose__title {
-  font-size: 1.6rem;
+  font-size: 2rem;
   letter-spacing: 1px;
   background-color: blue;
-  padding: .6rem 0;
+  padding: 1rem 0;
 }
 
 .webstack--purpose__paragraphs {
@@ -167,10 +167,10 @@
 }
 
 .webstack--explanation__title {
-  font-size: 1.6rem;
+  font-size: 2rem;
   letter-spacing: 1px;
   background-color: blue;
-  padding: .6rem 0;
+  padding: 1rem 0;
 }
 
 .webstack--explanation__container {
@@ -200,8 +200,8 @@
 
 .projects--process__title {
   background-color: blue;
-  padding: .6rem 0;
-  font-size: 1.6rem;
+  padding: 1rem 0;
+  font-size: 2rem;
   letter-spacing: 1px;
 }
 
@@ -210,7 +210,6 @@
   grid-template-columns: repeat(2, 1fr);
   column-gap: 1rem;
 }
-
 
 .process--description__para1 {
   background-color: blueviolet;
@@ -228,7 +227,48 @@
 
 .projects--lesson__title {
   background-color: blue;
-  padding: .6rem 0;
-  font-size: 1.6rem;
+  padding: 1rem 0;
+  font-size: 2rem;
   letter-spacing: 1px;
+}
+
+@media screen and (max-width: 500px) {
+  .projects--header__title {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+  }
+
+  .header--description__para1 {
+    width: 100%;
+    padding-bottom: 0.8rem;
+  }
+
+  .projects--header__details {
+    width: 100%;
+  }
+
+  .webstack--purpose__title {
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+  }
+
+  .webstack--purpose__paragraphs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .webstack--explanation__title {
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+  }
+
+  .webstack--explanation__container {
+    flex-direction: column;
+  }
+
+  .webstack--list {
+    width: 100%;
+  }
 }

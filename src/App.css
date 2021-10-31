@@ -26,4 +26,9 @@ ul {
   list-style: none;
 }
 
+@media screen and (max-width: 500px) {
+  body {
+    line-height: 1.2;
+  }
+}
 
