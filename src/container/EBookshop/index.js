@@ -114,7 +114,7 @@ const EBookshop = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer value="https://github.com/johnkatua/ecommerce_client" />
     </div>
   );
 };

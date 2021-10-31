@@ -10,9 +10,9 @@ const Home = () => {
     <div className="home">
       <Header />
       <MainContent />
-      <Footer />
+      <Footer value="https://github.com/johnkatua/JohnKatua.com" />
     </div>
-  )
+  );
 }
 
 export default Home;

@@ -114,7 +114,7 @@ const BirdEye = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer value="birdeye" />
     </div>
   );
 };

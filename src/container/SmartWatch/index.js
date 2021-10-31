@@ -114,7 +114,7 @@ const SmartWatch = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer value="https://github.com/johnkatua/smartwatch_ui" />
     </div>
   );
 };

@@ -114,7 +114,7 @@ const MetaMovieReview = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer value="https://github.com/johnkatua/meta-movie-app" />
     </div>
   );
 };
