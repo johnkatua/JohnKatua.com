@@ -9,12 +9,12 @@ const Header = () => {
   const history = useHistory();
 
   const redirect = () => {
-    return history.push('/')
+    return history.push('/home')
   }
 
   return (
     <div className="header">
-      {location.pathname === "/" ? null : (
+      {location.pathname === "/home" ? null : (
         <div className="header--icon" onClick={redirect}>
           <ArrowLeft />
         </div>

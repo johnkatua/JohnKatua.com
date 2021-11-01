@@ -2,6 +2,7 @@ import React, { lazy, Suspense} from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 
+const Welcome = lazy(() => import('./components/Welcome'));
 const Home = lazy(() => import('./components/Home'));
 const BirdEye = lazy(() => import('./container/BirdEye'));
 const EBookshop = lazy(() => import('./container/EBookshop'));
@@ -16,7 +17,8 @@ function App() {
     <Suspense fallback={renderLoader()}>
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Welcome} />
+          <Route exact path="/home" component={Home} />
           <Route exact path="/birdeye" component={BirdEye} />
           <Route exact path="/smartwatch" component={SmartWatch} />
           <Route exact path="/ebookshop" component={EBookshop} />
