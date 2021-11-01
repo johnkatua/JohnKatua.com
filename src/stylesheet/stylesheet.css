@@ -271,4 +271,31 @@
   .webstack--list {
     width: 100%;
   }
+
+  .projects--process__title {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+  }
+
+  .projects--process__description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects--process__description p:first-of-type {
+    margin-bottom: 1rem;
+  }
+
+  .projects--process__description p:last-of-type {
+    margin-bottom: 0.5rem;
+  }
+
+  .projects--lesson__title {
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+  }
+
+  .projects--lesson__container p:first-of-type {
+    padding-bottom: 0.5rem;
+  }
 }

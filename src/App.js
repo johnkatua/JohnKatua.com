@@ -1,15 +1,19 @@
-import React from 'react';
+import React, { lazy, Suspense} from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Home from './components/Home';
-import BirdEye from './container/BirdEye';
-import EBookshop from './container/EBookshop';
-import MetaMovieReview from './container/MetaMovieReview';
-import SmartWatch from './container/SmartWatch';
+
+const Home = lazy(() => import('./components/Home'));
+const BirdEye = lazy(() => import('./container/BirdEye'));
+const EBookshop = lazy(() => import('./container/EBookshop'));
+const MetaMovieReview = lazy(() => import('./container/MetaMovieReview'));
+const SmartWatch = lazy(() => import('./container/SmartWatch'));
+
+const renderLoader = () => <p>Loading...</p>
+
 
 function App() {
   return (
-    <div>
+    <Suspense fallback={renderLoader()}>
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
@@ -19,7 +23,7 @@ function App() {
           <Route exact path="/metamovie" component={MetaMovieReview} />
         </Switch>
       </BrowserRouter>
-    </div>
+    </Suspense>
   );
 }
 
